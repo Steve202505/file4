@@ -1,0 +1,28 @@
+[2026-01-15T12:26:09.431Z] AdjustBalance Error: Cannot read properties of undefined (reading 'ISOLATION_LEVELS')
+Stack: TypeError: Cannot read properties of undefined (reading 'ISOLATION_LEVELS')
+    at withLockingTransaction (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\src\utils\sequelizeTransactionWrapper.js:55:47)
+    at exports.adjustBalance (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\src\controllers\agentController.js:236:26)
+    at Layer.handle [as handle_request] (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\route.js:149:13)
+    at E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\src\middleware\roleCheck.js:34:14
+    at Layer.handle [as handle_request] (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\index.js:284:15
+Data: {"id":"6966bd50b4832c776e55338e","body":{"amount":14,"type":"add","description":""},"agent":"1fb94ec1-c499-4e22-aae6-0f30b5fb4f54"}
+
+[2026-01-15T12:26:19.924Z] AdjustBalance Error: Cannot read properties of undefined (reading 'ISOLATION_LEVELS')
+Stack: TypeError: Cannot read properties of undefined (reading 'ISOLATION_LEVELS')
+    at withLockingTransaction (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\src\utils\sequelizeTransactionWrapper.js:55:47)
+    at exports.adjustBalance (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\src\controllers\agentController.js:236:26)
+    at Layer.handle [as handle_request] (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\route.js:149:13)
+    at E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\src\middleware\roleCheck.js:34:14
+    at Layer.handle [as handle_request] (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\ALL the projects ZIP\Project_website_Full_Completed_Fixed\Project_website\trading-platform\backend\node_modules\express\lib\router\index.js:284:15
+Data: {"id":"6966bd50b4832c776e55338e","body":{"amount":1000,"type":"add","description":""},"agent":"1fb94ec1-c499-4e22-aae6-0f30b5fb4f54"}
+

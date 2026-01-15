@@ -1,0 +1,141 @@
+.theme-settings-drawer {
+    --bg-drawer: var(--bg-card);
+    --border-divider: var(--border-light);
+    background-color: var(--bg-drawer) !important;
+}
+
+.theme-drawer-body {
+    background-color: var(--bg-drawer);
+    color: var(--text-regular);
+}
+
+.setting-label {
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+.setting-text {
+    font-size: 13px;
+    color: var(--text-primary);
+}
+
+.layout-box {
+    width: 44px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: var(--bg-body);
+    cursor: pointer;
+    position: relative;
+    border: 2px solid var(--border-color);
+    overflow: hidden;
+}
+
+.layout-box.active {
+    border-color: var(--primary-blue);
+}
+
+.side-layout::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 30%;
+    background-color: #2b2f3a;
+}
+
+.top-layout::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 30%;
+    background-color: #2b2f3a;
+}
+
+.check-icon {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    color: var(--primary-blue);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.color-circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    transition: all 0.2s;
+}
+
+.color-circle.active {
+    border-color: var(--text-primary);
+    box-shadow: 0 0 5px rgba(var(--primary-blue), 0.5);
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--border-divider);
+}
+
+.custom-switch .form-check-input {
+    background-color: var(--bg-input);
+    border-color: var(--border-color);
+    width: 40px !important;
+    height: 20px !important;
+    cursor: pointer;
+}
+
+.custom-switch .form-check-input:checked {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+
+.number-input {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: var(--bg-input);
+}
+
+.num-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: 2px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.num-btn:hover {
+    background-color: var(--border-light);
+    color: var(--text-primary);
+}
+
+.num-display {
+    padding: 4px 15px;
+    min-width: 80px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--warning-orange);
+}
+
+.reset-btn {
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-secondary) !important;
+    font-size: 12px !important;
+    background: transparent !important;
+    width: 100% !important;
+}
+
+.reset-btn:hover {
+    border-color: var(--primary-blue) !important;
+    color: var(--primary-blue) !important;
+}

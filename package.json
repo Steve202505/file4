@@ -1,0 +1,22 @@
+{
+  "name": "project_website",
+  "version": "1.0.0",
+  "description": "Trading Platform Monorepo",
+  "private": true,
+  "workspaces": [
+    "trading-platform/backend",
+    "trading-platform/user-frontend",
+    "trading-platform/agent-frontend"
+  ],
+  "scripts": {
+    "install-all": "npm install && npm install --prefix trading-platform/backend && npm install --prefix trading-platform/user-frontend && npm install --prefix trading-platform/agent-frontend",
+    "start-backend": "npm run dev --prefix trading-platform/backend",
+    "start-user": "npm start --prefix trading-platform/user-frontend",
+    "start-agent": "npm start --prefix trading-platform/agent-frontend",
+    "dev": "concurrently \"npm run start-backend\" \"npm run start-user\" \"npm run start-agent\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.11"
+  }
+}

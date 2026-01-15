@@ -1,0 +1,149 @@
+/* MajesticAdmin.css - Premium Styles for Agent/Admin Panel */
+
+:root {
+    --majestic-gold: #fcd535;
+    --majestic-gold-hover: #f7b500;
+    --majestic-bg-dark: #0b1118;
+    --majestic-card-bg: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+    --majestic-border: rgba(252, 213, 53, 0.1);
+    --majestic-border-hover: rgba(252, 213, 53, 0.3);
+    --majestic-text-muted: rgba(255, 255, 255, 0.5);
+}
+
+/* Global Overrides */
+body.dark-mode {
+    background-color: var(--majestic-bg-dark) !important;
+}
+
+/* Typography */
+.majestic-header-title {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Cards */
+.majestic-card,
+.card {
+    background: var(--majestic-card-bg) !important;
+    border: 1px solid var(--majestic-border) !important;
+    border-radius: 20px !important;
+    padding: 20px;
+    transition: all 0.4s ease;
+    box-shadow: none !important;
+}
+
+.majestic-card:hover,
+.card:hover {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-color: var(--majestic-border-hover) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #fcd535 0%, #f7b500 100%) !important;
+    border: none !important;
+    color: #000 !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px !important;
+    border-radius: 12px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(252, 213, 53, 0.2) !important;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(252, 213, 53, 0.3) !important;
+}
+
+.btn-secondary,
+.btn-outline-secondary {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    border-radius: 12px !important;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+}
+
+/* Inputs */
+.form-control,
+.form-select {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px !important;
+    color: white !important;
+    padding: 10px 15px !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-color: var(--majestic-gold) !important;
+    box-shadow: 0 0 15px rgba(252, 213, 53, 0.1) !important;
+}
+
+/* Tables */
+.table {
+    --bs-table-bg: transparent !important;
+    --bs-table-color: rgba(255, 255, 255, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.table thead th {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 15px !important;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.table td {
+    padding: 15px !important;
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+.table-hover tbody tr:hover td {
+    background: rgba(252, 213, 53, 0.02) !important;
+    color: white !important;
+}
+
+/* Modals */
+.modal-content {
+    background: #14181f !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 20px !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5) !important;
+}
+
+.modal-header,
+.modal-footer {
+    border-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.modal-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+/* Badges */
+.badge {
+    padding: 6px 10px !important;
+    border-radius: 6px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px;
+}

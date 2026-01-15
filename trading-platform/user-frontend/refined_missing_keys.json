@@ -1,0 +1,11 @@
+{
+    "l_code_____i18n_language_____languages_0__________": "l.code === i18n.language) || languages[0];\r\n\r\n    return (",
+    "__________return__": ");\r\n\r\n    return (",
+    "id_": "ID:",
+    "usd": "USD",
+    "____cards_length_____0____": ") : cards.length === 0 ? (",
+    "____wallets_length_____0____": ") : wallets.length === 0 ? (",
+    "____transactions_length_____0____": ") : transactions.length === 0 ? (",
+    "____filteredholdings_length_____0____": ") : filteredHoldings.length === 0 ? (",
+    "24h": "24H"
+}

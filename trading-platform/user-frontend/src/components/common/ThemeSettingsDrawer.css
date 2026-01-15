@@ -1,0 +1,113 @@
+.theme-settings-drawer {
+    --bg-drawer: #1A1E23;
+    --border-divider: #363637;
+    background-color: var(--bg-drawer) !important;
+}
+
+.theme-drawer-body {
+    background-color: var(--bg-drawer);
+    color: #fff;
+}
+
+.setting-label {
+    font-size: 13px;
+    color: #848E9C;
+}
+
+.setting-text {
+    font-size: 13px;
+    color: #fff;
+}
+
+.layout-box {
+    width: 44px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #0F1216;
+    cursor: pointer;
+    position: relative;
+    border: 2px solid #4C4D4F;
+    overflow: hidden;
+}
+
+.layout-box.active {
+    border-color: #D4AF37;
+    /* Gold accent */
+}
+
+.side-layout::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 30%;
+    background-color: #2b2f3a;
+}
+
+.top-layout::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 30%;
+    background-color: #2b2f3a;
+}
+
+.check-icon {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    color: #D4AF37;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.color-circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    transition: all 0.2s;
+}
+
+.color-circle.active {
+    border-color: #fff;
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--border-divider);
+}
+
+.custom-switch .form-check-input {
+    background-color: #363636;
+    border-color: #4C4D4F;
+    width: 40px !important;
+    height: 20px !important;
+    cursor: pointer;
+}
+
+.custom-switch .form-check-input:checked {
+    background-color: #D4AF37;
+    border-color: #D4AF37;
+}
+
+.reset-btn {
+    border: 1px solid #4C4D4F !important;
+    color: #848E9C !important;
+    font-size: 12px !important;
+    background: transparent !important;
+    width: 100% !important;
+}
+
+.reset-btn:hover {
+    border-color: #D4AF37 !important;
+    color: #D4AF37 !important;
+}

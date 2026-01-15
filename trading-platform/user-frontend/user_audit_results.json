@@ -1,0 +1,42 @@
+{
+    "missingKeysFromT": [
+        "../../services/userService (Default: N/A)",
+        "ALL (Default: N/A)",
+        "/auth/signup (Default: N/A)",
+        "/auth/login (Default: N/A)",
+        "/trades/place (Default: N/A)",
+        "/trades/history (Default: N/A)",
+        "/user/profile (Default: N/A)",
+        "/user/balance (Default: N/A)",
+        "/user/withdraw (Default: N/A)",
+        "/user/referral-info (Default: N/A)",
+        "/user/assigned-agent (Default: N/A)",
+        "/user/locale (Default: N/A)",
+        "/user/bank-cards (Default: N/A)",
+        "/user/crypto-wallets (Default: N/A)",
+        "/user/change-password (Default: N/A)",
+        "/user/deposit-addresses (Default: N/A)"
+    ],
+    "findings": [
+        {
+            "text": "bankName",
+            "file": "pages\\AddBankCardPage.js"
+        },
+        {
+            "text": "bankAccountName",
+            "file": "pages\\AddBankCardPage.js"
+        },
+        {
+            "text": "accountNumber",
+            "file": "pages\\AddBankCardPage.js"
+        },
+        {
+            "text": "walletAddress",
+            "file": "pages\\AddCryptoWalletPage.js"
+        },
+        {
+            "text": "mobileNumber",
+            "file": "pages\\ProfilePage.js"
+        }
+    ]
+}

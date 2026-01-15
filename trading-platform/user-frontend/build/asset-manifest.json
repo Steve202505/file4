@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a436116e.css",
+    "main.js": "/static/js/main.97c063a6.js",
+    "static/js/709.8fe32af0.chunk.js": "/static/js/709.8fe32af0.chunk.js",
+    "static/media/gold-coin.jpg": "/static/media/gold-coin.e40edf3a34812f230bc1.jpg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/index.html",
+    "main.a436116e.css.map": "/static/css/main.a436116e.css.map",
+    "main.97c063a6.js.map": "/static/js/main.97c063a6.js.map",
+    "709.8fe32af0.chunk.js.map": "/static/js/709.8fe32af0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a436116e.css",
+    "static/js/main.97c063a6.js"
+  ]
+}

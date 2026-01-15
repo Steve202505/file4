@@ -1,0 +1,117 @@
+{
+    "missingKeysFromT": [
+        "../../services/agentService (Default: N/A)",
+        "type (Default: N/A)",
+        "@ (Default: N/A)",
+        "/admin/agents (Default: N/A)",
+        "/admin/audit-logs (Default: N/A)",
+        "/agent/users (Default: N/A)",
+        "/agent/withdrawals (Default: N/A)",
+        "/agent/users/stats (Default: N/A)",
+        "/agent/locale (Default: N/A)",
+        "/agent/trades (Default: N/A)",
+        "/agent/my-wallets (Default: N/A)",
+        "/agent/my-wallets/bank-card (Default: N/A)",
+        "/agent/my-wallets/crypto-wallet (Default: N/A)",
+        "/auth/agent/login (Default: N/A)",
+        "/auth/agent/change-password (Default: N/A)"
+    ],
+    "findings": [
+        {
+            "text": "userId",
+            "file": "components\\management\\StockOrders.js"
+        },
+        {
+            "text": "dark",
+            "file": "components\\management\\StockOrders.js"
+        },
+        {
+            "text": "adjType",
+            "file": "components\\management\\UserAdjustmentModal.js"
+        },
+        {
+            "text": "isSimulated",
+            "file": "components\\management\\UserEditModal.js"
+        },
+        {
+            "text": "controlLevel",
+            "file": "components\\management\\UserEditModal.js"
+        },
+        {
+            "text": "isActive",
+            "file": "components\\management\\UserEditModal.js"
+        },
+        {
+            "text": "userId",
+            "file": "components\\management\\UserManagement.js"
+        },
+        {
+            "text": "mobileNumber",
+            "file": "components\\management\\UserManagement.js"
+        },
+        {
+            "text": "userId",
+            "file": "components\\management\\UserWalletDetails.js"
+        },
+        {
+            "text": "mobileNumber",
+            "file": "components\\management\\UserWalletDetails.js"
+        },
+        {
+            "text": "dark",
+            "file": "components\\management\\UserWalletDetails.js"
+        },
+        {
+            "text": "orderNumber",
+            "file": "components\\management\\WithdrawalManagement.js"
+        },
+        {
+            "text": "userId",
+            "file": "components\\management\\WithdrawalManagement.js"
+        },
+        {
+            "text": "bankName",
+            "file": "pages\\MyBankCardPage.js"
+        },
+        {
+            "text": "bankAccountName",
+            "file": "pages\\MyBankCardPage.js"
+        },
+        {
+            "text": "accountNumber",
+            "file": "pages\\MyBankCardPage.js"
+        },
+        {
+            "text": "TRC20",
+            "file": "pages\\MyCryptoWalletPage.js"
+        },
+        {
+            "text": "ERC20",
+            "file": "pages\\MyCryptoWalletPage.js"
+        },
+        {
+            "text": "BTC",
+            "file": "pages\\MyCryptoWalletPage.js"
+        },
+        {
+            "text": "walletAddress",
+            "file": "pages\\MyCryptoWalletPage.js"
+        },
+        {
+            "text": "&laquo;",
+            "file": "pages\\MyWalletPage.js"
+        },
+        {
+            "text": "&lsaquo;",
+            "file": "pages\\MyWalletPage.js"
+        },
+        {
+            "text": "&rsaquo;",
+            "file": "pages\\MyWalletPage.js"
+        },
+        {
+            "text": "&raquo;",
+            "file": "pages\\MyWalletPage.js"
+        }
+    ]
+}
